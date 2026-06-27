@@ -384,3 +384,90 @@ button {
     width: 100%;
   }
 }
+
+/* AI Counseling Panel */
+.ai-panel {
+  margin-top: 32px;
+  padding: 24px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.ai-panel-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ai-selected-student {
+  padding: 12px;
+  background: var(--surface-strong);
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.ai-label {
+  font-weight: 800;
+  color: var(--ink);
+}
+
+.ai-textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.ai-textarea:focus {
+  border-color: var(--primary);
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.13);
+}
+
+.preview-section {
+  background: #f8fafc;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.preview-section h4 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.ai-preview {
+  margin: 0;
+  font-family: monospace;
+  font-size: 13px;
+  color: var(--ink);
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.ai-submit-btn {
+  align-self: flex-start;
+}
+
+.ai-result {
+  margin-top: 16px;
+  padding: 20px;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 6px;
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+.ai-notice {
+  margin-top: 16px;
+  font-size: 13px;
+  color: var(--muted);
+  text-align: center;
+}
